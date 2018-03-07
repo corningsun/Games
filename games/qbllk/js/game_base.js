@@ -1,6 +1,6 @@
-if (void 0 == APP_BASE_URL) var APP_BASE_URL = "http://g.lanrenmb.com/";
-if (void 0 == GAME_LIST_URL) var GAME_LIST_URL = "http://g.lanrenmb.com/";
-if (void 0 == FOLLOW_URL) var FOLLOW_URL = "http://g.lanrenmb.com/";
+if (void 0 == APP_BASE_URL) var APP_BASE_URL = "http://corningsun.top:81/";
+if (void 0 == GAME_LIST_URL) var GAME_LIST_URL = "http://corningsun.top:81/";
+if (void 0 == FOLLOW_URL) var FOLLOW_URL = "http://corningsun.top:81/";
 var BASE_RES_DIR = "../",
 	RES_DIR = "",
 	APP_DEPLOYMENT = "WEB",
@@ -13,7 +13,7 @@ var BASE_RES_DIR = "../",
 	SHOW_LLAMA = !0,
 	SHOW_COPYRIGHT = !1,
 	IN_WEIXIN = !1;
-0 <= document.URL.indexOf("file://") && (IS_ANDROID || IS_IOS) && (APP_DEPLOYMENT = "APP", USE_NATIVE_SOUND = USE_NATIVE_SHARE = !0, APP_BASE_URL = "http://g.lanrenmb.com/");
+0 <= document.URL.indexOf("file://") && (IS_ANDROID || IS_IOS) && (APP_DEPLOYMENT = "APP", USE_NATIVE_SOUND = USE_NATIVE_SHARE = !0, APP_BASE_URL = "http://corningsun.top:81/");
 document.addEventListener("WeixinJSBridgeReady", function () {
     IN_WEIXIN = !0;
     WeixinJSBridge.call("showOptionMenu");
@@ -33,12 +33,12 @@ var PID = 0,
 	logFlag = !1,
 	keyStorage = "best:" + GID + ":" + PID;
 
-var mebtnopenurl = "http://mp.weixin.qq.com/s?__biz=MjM5NjA0MTI0OQ==&mid=200068987&idx=1&sn=1de5daeaae94c66a3c46a13e20e8011e#rd";
+var mebtnopenurl = "http://corningsun.com";
 
 window.shareData = {
-    "imgUrl": "http://g.lanrenmb.com/icon/qbllk.png",
-    "timeLineLink": "http://g.lanrenmb.com/games/qbllk/",
-    "tTitle": "奇葩连连看-懒人模板",
+    "imgUrl": "http://corningsun.top:81/icon/qbllk.png",
+    "timeLineLink": "http://corningsun.top:81/games/qbllk/",
+    "tTitle": "奇葩连连看-CorningSun",
     "tContent": "要你命的奇葩大合集，玩完这款游戏，我都快变成奇葩了。"
 };
 

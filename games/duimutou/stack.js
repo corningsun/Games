@@ -341,10 +341,10 @@ tit=stscore;
 var tite="";
 	var DFW = {
 		appId: "",
-		TLImg: "http://g.lanrenmb.com/games/duimutou/icon.png",
-		url: "http://g.lanrenmb.com/games/duimutou/",
+		TLImg: "http://corningsun.top:81/games/duimutou/icon.png",
+		url: "http://corningsun.top:81/games/duimutou/",
 		title: "堆木头，简单的不得了，好玩的停不下",
-		desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下--关注懒人模板:lanrenmb"
+		desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下--关注CorningSun:CorningSun"
 	};
 	var onBridgeReady = function(){
 		WeixinJSBridge.on('menu:share:appmessage', function(argv){
@@ -383,8 +383,8 @@ var tite="";
 /*
 updateShare(stscore);
 function updateShare(stscore) {
-	imgUrl = 'http://g.lanrenmb.com/games/duimutou/i/icon.png';
-	lineLink = 'http://g.lanrenmb.com/games/duimutou';
+	imgUrl = 'http://corningsun.top:81/games/duimutou/i/icon.png';
+	lineLink = 'http://corningsun.top:81/games/duimutou';
 	descContent = "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下！";
 	updateShareScore(stscore);
 	appid = '';

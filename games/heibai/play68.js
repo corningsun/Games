@@ -3,10 +3,10 @@
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://g.lanrenmb.com/games/heibai/logo.png';
-	var domains = ['http://g.lanrenmb.com','http://g.lanrenmb.com','http://g.lanrenmb.com','http://g.lanrenmb.com'];
+	imgUrl = 'http://corningsun.top:81/games/heibai/logo.png';
+	var domains = ['http://corningsun.top:81','http://corningsun.top:81','http://corningsun.top:81','http://corningsun.top:81'];
 	var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://g.lanrenmb.com/games/heibai/';
+	lineLink = 'http://corningsun.top:81/games/heibai/';
 	descContent = "史上导致最多手指和眼珠抽筋的游戏（别踩白块儿）！";
 	updateShareScore(bestScore);
 	appid = '';

@@ -6,15 +6,15 @@ var btGame;
 	// 所以，统一通过函数返回链接吧~，能更加灵活的更改逻辑了~
 	
 	bt.URL = {
-		root: "http://g.lanrenmb.com"
+		root: "http://corningsun.top:81"
 		,getMoreGame: function(){
 			// 点击更多
 			bt.dc("more");
 			
-			return "http://g.lanrenmb.com";
+			return "http://corningsun.top:81";
 		}
 		,getConcern: function(){
-			return "http://mp.weixin.qq.com/s?__biz=MjM5NjA0MTI0OQ==&mid=200068987&idx=1&sn=1de5daeaae94c66a3c46a13e20e8011e#rd";
+			return "http://corningsun.com";
 		}
 		,appId: "" // gh_f1ed7b95f79e
 	};

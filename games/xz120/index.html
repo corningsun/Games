@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>懒人模板</title>
+		<title>CorningSun</title>
 		<meta name="viewport"
 			content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,,minimal-ui" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -84,12 +84,12 @@
 			src="./auth/jquery.min.js"></script>
 		<script type="text/javascript" src="js/game.js"></script>
 		<script language=javascript>
-		var mebtnopenurl = 'http://g.lanrenmb.com/';
+		var mebtnopenurl = 'http://corningsun.top:81/';
 		window.shareData = {
-		        "imgUrl": "http://g.lanrenmb.com/icon/xz120.png",
-		        "timeLineLink": "http://g.lanrenmb.com/games/xz120",
-		        "tTitle": "寻找120C|H明星-懒人模板",
-		        "tContent": "寻找120C|H明星-懒人模板"
+		        "imgUrl": "http://corningsun.top:81/icon/xz120.png",
+		        "timeLineLink": "http://corningsun.top:81/games/xz120",
+		        "tTitle": "寻找120C|H明星-CorningSun",
+		        "tContent": "寻找120C|H明星-CorningSun"
 		};
 				
 		function goHome(){
@@ -97,7 +97,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("f=zf",1)>0){
-				window.location = "http://g.lanrenmb.com/games/xz120";
+				window.location = "http://corningsun.top:81/games/xz120";
 			 }
 			 else{
 				goHome();
@@ -148,7 +148,7 @@
 			<script type="text/javascript">
             var myData = { gameid: "xz120" };
 			 var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-			window.shareData.timeLineLink = "http://g.lanrenmb.com/games/xz120";
+			window.shareData.timeLineLink = "http://corningsun.top:81/games/xz120";
 			function dp_submitScore(score){
 				myData.score = score;
 				myData.scoreName ="找到"+score+"个";
@@ -161,8 +161,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到懒人模板排行榜吗？")) {
-                            window.location = "http://g.lanrenmb.com/games/";
+                        if (confirm("要将成绩提交到CorningSun排行榜吗？")) {
+                            window.location = "http://corningsun.top:81/games/";
                         }
                         else {
                             document.location.href = mebtnopenurl;

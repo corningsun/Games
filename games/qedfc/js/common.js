@@ -5,15 +5,15 @@ var btGame;
 	// 因考虑到，以后可能拿链接的时候，可能要区分游戏
 	// 所以，统一通过函数返回链接吧~，能更加灵活的更改逻辑了~
 	bt.URL = {
-		root: "http://g.lanrenmb.com/"
+		root: "http://corningsun.top:81/"
 		,getMoreGame: function(){
 			// 点击更多
 			bt.dc("more");
 			
-			return "http://g.lanrenmb.com/";
+			return "http://corningsun.top:81/";
 		}
 		,getConcern: function(){
-			return "http://g.lanrenmb.com/";
+			return "http://corningsun.top:81/";
 		}
 		,appId: ""
 	};

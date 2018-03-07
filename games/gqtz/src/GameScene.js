@@ -6,15 +6,15 @@
 
 var AD = ["res/ad02.png"];
 
-var ADLink = ["http://g.lanrenmb.com"];
+var ADLink = ["http://corningsun.top:81"];
 
 var androidAD = ["res/ad01.png", "res/ad03.png"];
 
-var androidADLink = ["http://g.lanrenmb.com","http://g.lanrenmb.com"];
+var androidADLink = ["http://corningsun.top:81","http://corningsun.top:81"];
 
 var iosAD = ["res/ad01.png", "res/ad03.png"];
 
-var iosADLink = ["http://g.lanrenmb.com","http://g.lanrenmb.com"];
+var iosADLink = ["http://corningsun.top:81","http://corningsun.top:81"];
 
 var adPush = function(b) {
 

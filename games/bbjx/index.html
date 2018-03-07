@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="user-scalable=no" />
 		<title>
-			懒人模板
+			CorningSun
 		</title>
 		<link rel="icon" type="image/GIF" href="res/favicon.ico" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0"
@@ -48,12 +48,12 @@
 		<script src="js/game.min.js">
 		</script>
 		<script language=javascript>
-		var mebtnopenurl = 'http://g.lanrenmb.com';
+		var mebtnopenurl = 'http://corningsun.top:81';
 		window.shareData = {
-		        "imgUrl": "http://g.lanrenmb.com/icon/bbjx.png",
-		        "timeLineLink": "http://g.lanrenmb.com/games/bbjx",
-		        "tTitle": "步步惊心-懒人模板",
-		        "tContent": "步步惊心-懒人模板"
+		        "imgUrl": "http://corningsun.top:81/icon/bbjx.png",
+		        "timeLineLink": "http://corningsun.top:81/games/bbjx",
+		        "tTitle": "步步惊心-CorningSun",
+		        "tContent": "步步惊心-CorningSun"
 		};
 				
 		function goHome(){
@@ -61,7 +61,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://g.lanrenmb.com/games/bbjx";
+				window.location = "http://corningsun.top:81/games/bbjx";
 			 }
 			 else{
 				goHome();
@@ -104,7 +104,7 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://g.lanrenmb.com/games/bbjx/share.png"
+			<img width=100% src="http://corningsun.top:81/games/bbjx/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
@@ -112,7 +112,7 @@
 			<script type="text/javascript">
             var myData = { gameid: "bbjx" };
 			var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-			window.shareData.timeLineLink ="http://g.lanrenmb.com/games/bbjx/";
+			window.shareData.timeLineLink ="http://corningsun.top:81/games/bbjx/";
 			function dp_submitScore(score){
 				myData.score = parseInt(score);
 				myData.scoreName ="解开了谜题共用"+score+"步";
@@ -125,8 +125,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到懒人模板排行榜吗？")) {
-                            window.location = "http://g.lanrenmb.com/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                        if (confirm("要将成绩提交到CorningSun排行榜吗？")) {
+                            window.location = "http://corningsun.top:81/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;

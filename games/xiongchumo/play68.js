@@ -12,10 +12,10 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://g.lanrenmb.com/games/xiongchumo/wenzhangku.png';
-	//var domains = ['g.lanrenmb.com','www.xinwenzhang.com'];
+	imgUrl = 'http://corningsun.top:81/games/xiongchumo/wenzhangku.png';
+	//var domains = ['corningsun.top:81','www.xinwenzhang.com'];
 	//var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://g.lanrenmb.com/games/xiongchumo/';
+	lineLink = 'http://corningsun.top:81/games/xiongchumo/';
 	descContent = "反向跑酷没玩过吧？快来一起跑！";
 	updateShareScore(bestScore);
 	appid = '';

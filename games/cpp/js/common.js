@@ -1,13 +1,13 @@
 var btGame;~
 function(bt) {
 	bt.URL = {
-		root: "http://g.lanrenmb.com",
+		root: "http://corningsun.top:81",
 		getMoreGame: function() {
 			bt.dc("more");
-			return "http://g.lanrenmb.com"
+			return "http://corningsun.top:81"
 		},
 		getConcern: function() {
-			return "http://g.lanrenmb.com"
+			return "http://corningsun.top:81"
 		},
 	};
 	bt.getGameId = function() {
@@ -307,7 +307,7 @@ function(bt) {
 var btGame;~
 function(bt) {
 	function ask(cb) {
-		if (confirm('关注"懒人模板"微信，就可以收藏这个游戏哦！')) {
+		if (confirm('关注"CorningSun"微信，就可以收藏这个游戏哦！')) {
 			cb ? cb() : top.location.href = bt.URL.getConcern()
 		}
 	};

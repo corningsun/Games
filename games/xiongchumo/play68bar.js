@@ -75,7 +75,7 @@ function addShareWX() {
 	t.style.cssText = "text-align:right;padding-left:10px;";
 	e.appendChild(t);
 	var n = document.createElement("img");
-	n.src = "http://g.lanrenmb.com/games/xiongchumo/2000.png";
+	n.src = "http://corningsun.top:81/games/xiongchumo/2000.png";
 	n.id = "share-wx-img";
 	n.style.cssText = "max-width:280px;padding-right:25px;";
 	t.appendChild(n);
@@ -108,14 +108,14 @@ function isMobile() {
 function isIOS() {
 	return navigator.userAgent.match(/iphone|ipod|ios/i)
 }
-var HOME_PATH = "http://g.lanrenmb.com/games/",
+var HOME_PATH = "http://corningsun.top:81/games/",
 RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/game/",
 HORIZONTAL = HORIZONTAL || false,
 COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;
-var imgUrl = HOME_PATH + "http://g.lanrenmb.com/games/xiongchumo/wenzhangku.png";
+var imgUrl = HOME_PATH + "http://corningsun.top:81/games/xiongchumo/wenzhangku.png";
 var lineLink = HOME_PATH;
 var descContent = "快来跟我一起玩！";
-var shareTitle = "最好玩的小游戏就懒人模板小游戏！";
+var shareTitle = "最好玩的小游戏就CorningSun小游戏！";
 var appid = "";
 document.addEventListener("WeixinJSBridgeReady",
 function() {

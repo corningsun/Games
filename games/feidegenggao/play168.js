@@ -3,8 +3,8 @@
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://g.lanrenmb.com/games/feidegenggao/icon.png';
-	lineLink = 'http://g.lanrenmb.com/games/feidegenggao/';
+	imgUrl = 'http://corningsun.top:81/games/feidegenggao/icon.png';
+	lineLink = 'http://corningsun.top:81/games/feidegenggao/';
 	descContent = "我要飞的更高，快来一起飞起来吧！";
 	updateShareScore(bestScore);
 	appid = '';

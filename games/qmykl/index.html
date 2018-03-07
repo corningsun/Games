@@ -7,7 +7,7 @@
 			content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no, minimal-ui">
 		<meta name="copyright" content="Copyright (c) ijinshan.com">
 		<meta name="format-detection" content="telephone=no">
-		<title>懒人模板</title>
+		<title>CorningSun</title>
 		<link rel="stylesheet" type="text/css" href="css/min.css">
 	</head>
 	<body>
@@ -48,12 +48,12 @@
 		<audio src="images/shake.mp3" id="shake" preload></audio>
 		<script src="js/shake.min.js"></script>
 		<script language=javascript>
-		var mebtnopenurl = 'http://g.lanrenmb.com';
+		var mebtnopenurl = 'http://corningsun.top:81';
 		window.shareData = {
-		        "imgUrl": "http://g.lanrenmb.com/icon/qmykl.png",
-		        "timeLineLink": "http://g.lanrenmb.com/games/qmykl/index.html",
-		        "tTitle": "全民摇可乐-懒人模板",
-		        "tContent": "全民摇可乐-懒人模板"
+		        "imgUrl": "http://corningsun.top:81/icon/qmykl.png",
+		        "timeLineLink": "http://corningsun.top:81/games/qmykl/index.html",
+		        "tTitle": "全民摇可乐-CorningSun",
+		        "tContent": "全民摇可乐-CorningSun"
 		};
 				
 		function goHome(){
@@ -61,7 +61,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://g.lanrenmb.com/games/qmykl";
+				window.location = "http://corningsun.top:81/games/qmykl";
 			 }
 			 else{
 				goHome();
@@ -104,14 +104,14 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://g.lanrenmb.com/games/qmykl/share.png"
+			<img width=100% src="http://corningsun.top:81/games/qmykl/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "qmykl" };
-			window.shareData.timeLineLink ="http://g.lanrenmb.com/games/qmykl";
+			window.shareData.timeLineLink ="http://corningsun.top:81/games/qmykl";
 			function dp_submitScore(score,percent){
 				myData.score = parseInt(score*1000);
 				myData.scoreName = "摇可乐用时"+score+"秒";
@@ -124,8 +124,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到懒人模板排行榜吗？")) {
-                            window.location = "http://g.lanrenmb.com";
+                        if (confirm("要将成绩提交到CorningSun排行榜吗？")) {
+                            window.location = "http://corningsun.top:81";
                         }
                         else {
                             document.location.href = mebtnopenurl;

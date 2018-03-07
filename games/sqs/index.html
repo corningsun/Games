@@ -3,7 +3,7 @@
 <head lang="zh">
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, maximum-scale=0.5"/>
-    <title>懒人模板</title>
+    <title>CorningSun</title>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/easeljs-0.7.1.min.js"></script>
     <script type="text/javascript" src="js/tweenjs-0.5.1.min.js"></script>
@@ -19,11 +19,11 @@
 <body onLoad="init()">
     <canvas id="canvas"></canvas>
     <script language=javascript>
-		var mebtnopenurl = 'http://g.lanrenmb.com';
+		var mebtnopenurl = 'http://corningsun.top:81';
 		window.shareData = {
-		        "imgUrl": "http://g.lanrenmb.com/icon/sqs.png",
-		        "timeLineLink": "http://g.lanrenmb.com/games/sqs",
-		        "tTitle": "神枪手-懒人模板",
+		        "imgUrl": "http://corningsun.top:81/icon/sqs.png",
+		        "timeLineLink": "http://corningsun.top:81/games/sqs",
+		        "tTitle": "神枪手-CorningSun",
 		        "tContent": "瞄准后发射，看你能打中几环，考验你的眼明手快！"
 		};
 				
@@ -32,7 +32,7 @@
 		}
 		function clickMore(){
 			 if((window.location+"").indexOf("zf",1)>0){
-			 	window.location = "http://g.lanrenmb.com/games/sqs";
+			 	window.location = "http://corningsun.top:81/games/sqs";
 			  }
 			  else{
 			 	goHome();
@@ -75,7 +75,7 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://g.lanrenmb.com/games/sqs/share.png"
+			<img width=100% src="http://corningsun.top:81/games/sqs/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
@@ -83,7 +83,7 @@
 			<script type="text/javascript">
             var myData = { gameid: "sqs" };
 			var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-			window.shareData.timeLineLink = "http://g.lanrenmb.com/";
+			window.shareData.timeLineLink = "http://corningsun.top:81/";
 			function dp_submitScore(score,maxscore){
 				myData.score =parseInt(score*100);
 				myData.maxscore =maxscore;
@@ -97,8 +97,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到懒人模板排行榜吗？")) {
-                            window.location = "http://g.lanrenmb.com/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                        if (confirm("要将成绩提交到CorningSun排行榜吗？")) {
+                            window.location = "http://corningsun.top:81/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;

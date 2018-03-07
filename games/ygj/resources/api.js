@@ -11,8 +11,8 @@ Auth9G = function(gameid) {
 	this.identify = function(){};
 	this.ready = function(){};
 	this.readyDone = false;
-	this.baseUrl = "http://g.lanrenmb.com/";
-	this.gameUrl = "http://g.lanrenmb.com/";
+	this.baseUrl = "http://corningsun.top:81/";
+	this.gameUrl = "http://corningsun.top:81/";
 	this.init();
 }
 
@@ -65,7 +65,7 @@ Auth9G.prototype.connect = function(success, fail) {
 // 验证身份
 Auth9G.prototype.check = function() {
 	// TEMP
-	document.title = "懒人模板";
+	document.title = "CorningSun";
 	document.body.style.display = "none";
 	// 禁用 API
 	// this.doReady();

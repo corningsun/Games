@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href = "http://g.lanrenmb.com/games/";
+	window.location.href = "http://corningsun.top:81/games/";
 }
 
 function play68_submitScore(score) {
@@ -12,8 +12,8 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://g.lanrenmb.com/games/jgfx/static/icon.png';
-	lineLink = 'http://g.lanrenmb.com/games/jgfx/';
+	imgUrl = 'http://corningsun.top:81/games/jgfx/static/icon.png';
+	lineLink = 'http://corningsun.top:81/games/jgfx/';
 	descContent = "来比比看谁的手指更厉害！";
 	updateShareScore(bestScore);
 	appid = '';

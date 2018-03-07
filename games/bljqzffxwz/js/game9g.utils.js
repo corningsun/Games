@@ -22,7 +22,7 @@ var game9gdialog=document.createElement("div");
 console.dir(game9gdialog);
 game9gdialog.id="game9gdialog";
 game9gdialog.className="game9gdialog";
-game9gdialog.innerHTML='<header><h2 id="game9gtitle">懒人模板</h2></header><section id="game9gcontent"></section><footer><a href="javascript:void(0)" id="game9gleftbtn">取消</a><a href="javascript:void(0)" id="game9grightbtn">确定</a></footer>';
+game9gdialog.innerHTML='<header><h2 id="game9gtitle">CorningSun</h2></header><section id="game9gcontent"></section><footer><a href="javascript:void(0)" id="game9gleftbtn">取消</a><a href="javascript:void(0)" id="game9grightbtn">确定</a></footer>';
 document.getElementsByTagName("body")[0].appendChild(game9gdialog);
 game9g.utils.dialog=function(){
 	document.getElementById('game9gtitle').innerHTML=game9g.utils.shareConfirmparam.stitle;
@@ -49,7 +49,7 @@ game9g.utils.dialog=function(){
 game9g.utils.shareConfirmparam={};
 game9g.utils.shareConfirm=function(scontent,callback,stitle){
 	if(!stitle){
-		stitle="懒人模板";
+		stitle="CorningSun";
 	}
 	game9g.utils.shareConfirmparam={
 		stitle:stitle,

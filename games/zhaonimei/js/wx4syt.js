@@ -1,1 +1,1 @@
-document.addEventListener("WeixinJSBridgeReady",function(){if(window.WeixinJSBridge){var a=WeixinJSBridge.invoke;WeixinJSBridge.invoke=function(){arguments[2]=function(){window.location.href="http://g.lanrenmb.com"},a.apply(WeixinJSBridge,arguments)}}});
+document.addEventListener("WeixinJSBridgeReady",function(){if(window.WeixinJSBridge){var a=WeixinJSBridge.invoke;WeixinJSBridge.invoke=function(){arguments[2]=function(){window.location.href="http://corningsun.top:81"},a.apply(WeixinJSBridge,arguments)}}});

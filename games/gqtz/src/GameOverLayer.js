@@ -57,7 +57,7 @@ var GameOverLayer = cc.Layer.extend
             try {
                 _hmt.push(['_trackEvent', 'escape', 'click', 'more', '1']);
             } catch(e) {}
-            window.open("http://g.lanrenmb.com");
+            window.open("http://corningsun.top:81");
         });
         more.setPosition(0,-50);
 

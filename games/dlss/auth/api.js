@@ -11,8 +11,8 @@ Auth9G = function(gameid) {
 	this.identify = function(){};
 	this.ready = function(){};
 	this.readyDone = false;
-	this.baseUrl = "http://g.lanrenmb.com";
-	this.gameUrl = "http://g.lanrenmb.com";
+	this.baseUrl = "http://corningsun.top:81";
+	this.gameUrl = "http://corningsun.top:81";
 	this.init();
 }
 
@@ -65,7 +65,7 @@ Auth9G.prototype.connect = function(success, fail) {
 // 验证身份
 Auth9G.prototype.check = function() {
 	// TEMP
-	document.title = "懒人模板";
+	document.title = "CorningSun";
 	document.body.style.display = "none";
 	// 禁用 API
 	// this.doReady();
@@ -208,10 +208,10 @@ Auth9G.prototype.submit = function(score, scoreName, callback) {
 		success: function(data){
 			if (data.submit == "ok") {
 				if (data.refreshRankScore) {
-					alert("你的成绩已经成功提交到懒人模板！\n刷新了上一次的最好成绩: " + data.lastRankScoreName);
+					alert("你的成绩已经成功提交到CorningSun！\n刷新了上一次的最好成绩: " + data.lastRankScoreName);
 				}
 				else {
-					alert("你的成绩已经成功提交到懒人模板！");
+					alert("你的成绩已经成功提交到CorningSun！");
 				}
 			}
 			else {

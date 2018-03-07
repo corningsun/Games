@@ -1,13 +1,13 @@
 var btGame;~
 function(bt) {
 	bt.URL = {
-		root: "http://g.lanrenmb.com",
+		root: "http://corningsun.top:81",
 		getMoreGame: function() {
 			bt.dc("more");
-			return "http://g.lanrenmb.com"
+			return "http://corningsun.top:81"
 		},
 		getConcern: function() {
-			return "http://g.lanrenmb.com"
+			return "http://corningsun.top:81"
 		},
 	};
 	bt.getGameId = function() {

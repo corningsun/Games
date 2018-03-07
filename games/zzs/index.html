@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>懒人模板</title>
+	<title>CorningSun</title>
 	
 	<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
@@ -97,12 +97,12 @@
 		
     </script>
     <script language=javascript>
-		var mebtnopenurl = 'http://g.lanrenmb.com';
+		var mebtnopenurl = 'http://corningsun.top:81';
 		window.shareData = {
-		        "imgUrl": "http://g.lanrenmb.com/icon/zzs.png",
-		        "timeLineLink": "http://g.lanrenmb.com/games/zzs",
-		        "tTitle": "涨姿势-懒人模板",
-		        "tContent": "涨姿势-懒人模板"
+		        "imgUrl": "http://corningsun.top:81/icon/zzs.png",
+		        "timeLineLink": "http://corningsun.top:81/games/zzs",
+		        "tTitle": "涨姿势-CorningSun",
+		        "tContent": "涨姿势-CorningSun"
 		};
 				
 		function goHome(){
@@ -110,7 +110,7 @@
 		}
 		function clickMore(){
 			 if((window.location+"").indexOf("zf",1)>0){
-			 	window.location = "http://g.lanrenmb.com/games/zzs";
+			 	window.location = "http://corningsun.top:81/games/zzs";
 			  }
 			  else{
 			 	goHome();
@@ -153,7 +153,7 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://g.lanrenmb.com/games/zzs/share.png"
+			<img width=100% src="http://corningsun.top:81/games/zzs/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
@@ -161,7 +161,7 @@
 			<script type="text/javascript">
             var myData = { gameid: "zzs" };
 			var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-			window.shareData.timeLineLink = "http://g.lanrenmb.com/games/zzs";
+			window.shareData.timeLineLink = "http://corningsun.top:81/games/zzs";
 			function dp_submitScore(score,step,percent){
 				myData.score = parseInt(score);
 				myData.step = step;
@@ -176,8 +176,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到懒人模板排行榜吗？")) {
-                            window.location = "http://g.lanrenmb.com/";
+                        if (confirm("要将成绩提交到CorningSun排行榜吗？")) {
+                            window.location = "http://corningsun.top:81/";
                         }
                         else {
                             document.location.href = mebtnopenurl;

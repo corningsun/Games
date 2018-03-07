@@ -148,32 +148,32 @@ $(document).ready(function() {
     var ga = document.createElement('script');
     ga.type = 'text/javascript';
     ga.async = true;
-    ga.src = 'http://g.lanrenmb.com/games/';
+    ga.src = 'http://corningsun.top:81/games/';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
     ga.onload = function() {
         ga.parentNode.removeChild(ga)
     }
 })();
-var mebtnopenurl = 'http://g.lanrenmb.com/';
+var mebtnopenurl = 'http://corningsun.top:81/';
 window.shareData = {
-    "imgUrl": "http://g.lanrenmb.com/games/selang/icon.png",
-    "timeLineLink": "http://g.lanrenmb.com/games/selang/",
-    "tTitle": "小心色狼-懒人模板游戏",
+    "imgUrl": "http://corningsun.top:81/games/selang/icon.png",
+    "timeLineLink": "http://corningsun.top:81/games/selang/",
+    "tTitle": "小心色狼-CorningSun游戏",
     "tContent": "小女生和怪蜀黍一起出游发生的事情"
 };
 var helpCount = 0;
 function successHandler(m, t) {
     helpCount = 0;
     $("#share img").attr("src", "2000.png");
-    document.title = t / 1000 + "秒！懒人模板游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
+    document.title = t / 1000 + "秒！CorningSun游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
     window.shareData.tTitle = document.title
 };
 function failHandler(t) {
     helpCount++;
     if (helpCount > 2) {
         if (confirm("是不是没有想象的那么简单？您有【一次机会】获得提示，点击关注公众号并回复【小心色狼怎么过】可以得到提示，是否需要提示？")) {
-            location.href = "http://mp.weixin.qq.com/s?__biz=MjM5NjA0MTI0OQ==&mid=200068987&idx=1&sn=1de5daeaae94c66a3c46a13e20e8011e#rd"
+            location.href = "http://corningsun.com"
         };
         helpCount = 0
     }
@@ -187,17 +187,17 @@ function xuanyaoHandler(t) {
     dp_share(t)
 };
 function moreHandler() {
-    window.location.href = "http://g.lanrenmb.com/"
+    window.location.href = "http://corningsun.top:81/"
 };
 function dp_shareHelp(t) {
     $("#share img").attr("src", "share.png");
-    document.title = "我花了" + t / 1000 + "秒！懒人模板游戏《小心色狼》还没解开！快来帮帮我吧！";
+    document.title = "我花了" + t / 1000 + "秒！CorningSun游戏《小心色狼》还没解开！快来帮帮我吧！";
     document.getElementById("share").style.display = "";
     window.shareData.tTitle = document.title
 };
 function dp_share(t) {
     $("#share img").attr("src", "2000.png");
-    document.title = t / 1000 + "秒！懒人模板游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
+    document.title = t / 1000 + "秒！CorningSun游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
     document.getElementById("share").style.display = "";
     window.shareData.tTitle = document.title
 };
